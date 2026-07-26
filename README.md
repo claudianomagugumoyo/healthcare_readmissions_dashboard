@@ -5,7 +5,7 @@ An end-to-end healthcare analytics project built using **Databricks SQL**. This 
 ---
 
 ## 📊 Dashboard Preview
-![Dashboard Overview](screenshots/Dashboards_Overview.png)
+
 
 ---
 
