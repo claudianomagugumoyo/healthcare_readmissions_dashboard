@@ -49,4 +49,4 @@ This chart highlights the medical conditions associated with the highest average
 
 The hospital ranking visualisation highlights hospitals with higher Excess Readmission Ratios, helping identify potential outliers for further investigation.
 
-![Hospital Rankings](screenshots/hospital_rankings.png)
+![Hospital Rankings](screenshots/hospital_outliers.png)
