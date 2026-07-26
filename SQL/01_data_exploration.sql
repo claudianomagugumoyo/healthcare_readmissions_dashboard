@@ -1,6 +1,6 @@
 -- Healthcare Readmissions Analytics Dashboard
--- File: 02_exploratory_analysis.sql
--- Purpose: -- Explore patterns in the cleaned hospital readmissions data.
+-- File: 01_exploratory_analysis.sql
+-- Purpose: -- Understanding the raw dataset and identifying data quality issues.
 
 SELECT * 
 FROM `workspace`.`default`.`fy_2026_hospital_readmissions_reduction_program_hospital` limit 1000;
