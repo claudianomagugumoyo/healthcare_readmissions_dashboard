@@ -105,3 +105,51 @@ This project demonstrates practical SQL skills including:
 - `ORDER BY`
 - Creating analytical queries for dashboards
 - KPI calculations
+
+---
+
+# 📁 Repository Structure
+
+```text
+healthcare_readmissions_dashboard/
+
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── screenshots/
+│   ├── dashboard_overview.png
+│   ├── state_map.png
+│   ├── conditions_chart.png
+│   └── hospital_rankings.png
+│
+├── sql/
+│   ├── 01_data_cleaning.sql
+│   ├── 02_exploratory_analysis.sql
+│   └── 03_dashboard_queries.sql
+│
+└── data/
+    └── README.md
+```
+
+---
+
+# 📝 Medium Article
+
+I wrote a detailed walkthrough of this project, including the data cleaning process, dashboard design decisions and lessons learned.
+
+🔗 **Building an Interactive Healthcare Analytics Dashboard with Databricks SQL**
+
+(https://medium.com/@claudianomagugu.moyo)
+
+---
+
+# 👋 About Me
+
+I am a Molecular Biology and Bioinformatics graduate transitioning into the field of data analytics. I am passionate about using data to uncover insights, solve problems, and communicate findings in a clear and meaningful way.
+
+Through my analytics projects, I have been developing skills in SQL, Python, Databricks, data visualisation, and dashboard development, with a focus on turning raw data into actionable insights.
+
+Feel free to explore my projects and connect with me!
+
