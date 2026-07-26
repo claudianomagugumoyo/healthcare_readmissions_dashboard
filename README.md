@@ -50,3 +50,58 @@ This chart highlights the medical conditions associated with the highest average
 The hospital ranking visualisation highlights hospitals with higher Excess Readmission Ratios, helping identify potential outliers for further investigation.
 
 ![Hospital Rankings](screenshots/hospital_outliers.png)
+
+---
+
+# 🛠 Data Cleaning
+
+Before building the dashboard, the dataset required cleaning and preparation to ensure accurate analysis.
+
+The main data quality challenges included placeholder values such as `"N/A"` appearing in columns that should contain numeric values. These values caused SQL to interpret the columns as text rather than numbers.
+
+The cleaning process included:
+
+- Checking for duplicate records
+- Identifying missing values
+- Replacing `"N/A"` values with `NULL`
+- Converting columns to appropriate numeric data types using `CAST`
+- Preparing the dataset for analysis and visualisation
+
+This step created a reliable foundation for calculating KPIs and generating dashboard insights.
+
+---
+
+# 💡 Key Insights
+
+The analysis revealed several interesting patterns:
+
+- Most Excess Readmission Ratios were clustered close to **1.00**, meaning many hospitals performed close to expected levels.
+- Small differences between states highlighted that geographic variation was relatively subtle for this metric.
+- Some medical conditions showed higher average readmission ratios, suggesting areas where healthcare interventions may have the greatest impact.
+- Hospital-level analysis helped identify potential outliers that may require further investigation.
+
+---
+
+# 🧰 Technologies Used
+
+- **Databricks SQL** – Data cleaning, analysis and dashboard development
+- **SQL** – Data transformation and querying
+- **Databricks Dashboards** – Interactive visualisation
+- **Data Visualisation** – Communicating insights through charts and KPIs
+- **Healthcare Analytics** – Exploring hospital readmission trends
+
+---
+
+# 💻 SQL Skills Demonstrated
+
+This project demonstrates practical SQL skills including:
+
+- Data cleaning and transformation
+- `CASE WHEN` statements
+- `CAST` and data type conversion
+- Handling missing values (`NULL`)
+- Aggregations
+- `GROUP BY`
+- `ORDER BY`
+- Creating analytical queries for dashboards
+- KPI calculations
